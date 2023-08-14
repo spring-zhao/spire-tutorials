@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: frontend-3
   labels:
-    app: frontend
+    app: frontend-3
 spec:
   selector:
     matchLabels:
-      app: frontend
+      app: frontend-3
   template:
     metadata:
       labels:
-        app: frontend
+        app: frontend-3
     spec:
       containers:
       - name: envoy
@@ -27,11 +27,11 @@ spec:
           readOnly: true   
       - name: frontend
         image: hub.byted.org/security/client
-        args: ["http://127.0.0.1:3001", "2"]
+        args: ["http://127.0.0.1:3005"]
       volumes:
       - name: envoy-config
         configMap:
-          name: frontend-envoy
+          name: frontend-3-envoy
       - name: spire-agent-socket
         hostPath:
           path: /run/spire/sockets
