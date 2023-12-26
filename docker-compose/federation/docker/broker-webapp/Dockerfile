@@ -4,6 +4,7 @@ COPY conf/agent.conf /opt/spire/conf/agent/agent.conf
 COPY conf/agent.key.pem /opt/spire/conf/agent/agent.key.pem
 COPY conf/agent.crt.pem /opt/spire/conf/agent/agent.crt.pem
 COPY broker-webapp /usr/local/bin/broker-webapp
+COPY https_tutorials_server /usr/local/bin/https_tutorials_server
 
 # Copy convenient tools to be used in the tutorial
 COPY --link --from=alpine:3.17 /bin/cat /bin/cat

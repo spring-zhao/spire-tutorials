@@ -24,7 +24,7 @@ services:
     privileged: true
     links:
       - spire-server-stock
-      
+
   broker-webapp:
     build: ./docker/broker-webapp
     hostname: broker-webapp
@@ -35,3 +35,4 @@ services:
       - stock-quotes-service
     ports:
       - 8080:8080
+      - 9001:9001
