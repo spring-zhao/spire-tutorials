@@ -2,7 +2,7 @@ module https_tutorials
 
 go 1.21
 
-require code.byted.org/security/volczti-helper v1.2.8
+require code.byted.org/security/volczti-helper v1.2.9-0.20231227040030-29c2e281ce20
 
 require (
 	code.byted.org/security/certinfo v1.0.2 // indirect
