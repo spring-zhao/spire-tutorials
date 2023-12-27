@@ -8,6 +8,12 @@ code.byted.org/security/go-spiffe-v2 v1.0.6 h1:GDAGvpKVS5FLucbQ50W4JrEpEQf6G9T1q
 code.byted.org/security/go-spiffe-v2 v1.0.6/go.mod h1:GNxOsew43QM0LFUkIjpfMJuvugK+qOusVnYIrv7aLac=
 code.byted.org/security/volczti-helper v1.2.8 h1:uxy12yYPfFW6RKtqxIWaiCZK/hXmszWLLsUBZkABI6U=
 code.byted.org/security/volczti-helper v1.2.8/go.mod h1:BT6f34NYVtohloph3tmAeAduo/8LRZnyDxLvIh95kQI=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227033739-f8b6a7862ea1 h1:6kJnENaRKLRORMnT+FM44rCKQtkBSct9j1at7G3GnXg=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227033739-f8b6a7862ea1/go.mod h1:BT6f34NYVtohloph3tmAeAduo/8LRZnyDxLvIh95kQI=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227035413-91fe712e8c80 h1:m88GVVAEUU57KeOSOcr7Rbq6A0FGK2iLiyXzFDeFn+0=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227035413-91fe712e8c80/go.mod h1:BT6f34NYVtohloph3tmAeAduo/8LRZnyDxLvIh95kQI=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227040030-29c2e281ce20 h1:BWhIIhrVFvSGD2qxfdwcKWF8mmy5mibg09yHjt4Uyw0=
+code.byted.org/security/volczti-helper v1.2.9-0.20231227040030-29c2e281ce20/go.mod h1:BT6f34NYVtohloph3tmAeAduo/8LRZnyDxLvIh95kQI=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Knetic/govaluate v3.0.0+incompatible/go.mod h1:r7JcOSlj0wfOMncg0iLm8Leh48TZaKVeNIfJntJ2wa0=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
